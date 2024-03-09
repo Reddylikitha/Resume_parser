@@ -4,7 +4,7 @@ from Approach2.cosine_similarity import cosine_similarity
 from openai import OpenAI
 
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="YOUR OPENAI KEY")
 
 # from sklearn.metrics.pairwise import cosine_similarity
 def get_embeddings(text, model="text-embedding-ada-002"):

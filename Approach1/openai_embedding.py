@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 import pandas as pd
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="YOUR OPENAI KEY")
 
 csv_schema = {
     'name':str,
